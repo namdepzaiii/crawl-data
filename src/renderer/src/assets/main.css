@@ -1,0 +1,173 @@
+/* App.css */
+
+.app-layout {
+  height: 100vh;
+}
+
+.app-header {
+  background-color: #1a73e8;
+}
+
+.app-content {
+  padding: 24px;
+  background-color: #0a1a2b;
+  color: #e3e3e3;
+}
+
+.app-sider {
+  background-color: #1e1e1e;
+  color: #e3e3e3;
+}
+
+h2 {
+  color: #f0f0f0;
+  font-weight: bold;
+  font-size: 24px;
+  margin-bottom: 16px;
+}
+
+#text h2 {
+  color: #f4a261;
+}
+
+.view_button {
+  background-color: #4caf50;
+  color: #fff;
+  border: none;
+  font-weight: bold;
+  margin-right: 8px;
+  transition: background-color 0.3s;
+}
+
+.del_button {
+  background-color: #e63946;
+  color: #fff;
+  border: none;
+  font-weight: bold;
+  transition: background-color 0.3s;
+}
+
+.view_button:hover,
+.del_button:hover {
+  opacity: 0.9;
+}
+.app-button {
+  width: 100%;
+  padding: 12px;
+  font-size: 16px;
+  color: #001529; /* Màu chữ trắng cho độ tương phản */
+  background-color: #f4a261; /* Màu nền chủ đạo */
+  border: none;
+  border-radius: 8px; /* Bo góc nhẹ nhàng */
+  font-weight: bold;
+  margin-bottom: 12px;
+  transition: background-color 0.3s, transform 0.2s;
+  cursor: pointer;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Tạo hiệu ứng nổi */
+}
+
+.app-button:hover {
+  transform: scale(1.1); /* Hiệu ứng phóng to nhẹ khi hover */
+  color: #76ff74;
+}
+
+.app-button:active {
+  background-color: #d65f41; /* Màu khi nhấn */
+  transform: scale(0.98); /* Hiệu ứng nhỏ lại khi nhấn */
+}
+
+.custom-table .ant-table-thead > tr > th {
+  background-color: #23395b;
+  color: #f4a261;
+  font-weight: bold;
+}
+
+.custom-table .ant-table-tbody > tr > td {
+  color: #e3e3e3;
+  font-style: italic;
+}
+
+#post-details p {
+  color: #f4a261;
+  margin-bottom: 8px;
+}
+#post-content {
+  color: #000000; /* Đặt màu chữ đen */
+  font-style: italic; /* In nghiêng chữ */
+}
+
+.custom-label {
+  font-weight: bold;
+  color: #f4a261;
+  width: 175px;
+  text-align: left;
+  display: inline-block; /* Đảm bảo nó là phần tử khối cho width hoạt động */
+}
+
+.custom-input {
+  background-color: #23395b;
+  color: #e3e3e3;
+  border: 1px solid #f4a261;
+}
+
+.scrollable-container {
+  max-height: 350px;
+  overflow-y: auto;
+}
+
+
+
+.menu-item {
+  font-size: 16px;
+  font-weight: bold;
+  padding: 0 20px;
+  color: #ffffff; /* Màu chữ trắng */
+  transition: color 0.3s, background-color 0.3s;
+  border-radius: 4px;
+}
+
+.menu-home {
+  color: #f4a261; /* Màu xanh cho mục "Home" */
+}
+
+.menu-setting {
+  color: #f4a261; /* Màu cam cho mục "Cài đặt" */
+}
+
+/* Màu nền cho mục đang chọn */
+.menu-item.selected {
+  background-color: rgba(255, 255, 255, 0.15); /* Nền bán trong suốt cho mục đã chọn */
+  color: #ffffff; /* Màu chữ trắng khi mục được chọn */
+}
+
+/* Hiệu ứng hover cho các mục menu */
+.menu-item:hover {
+  transform: scale(1.1); /* Hiệu ứng phóng to nhẹ khi hover */
+  color: #76ff74;
+}
+/* Thay đổi màu nền khi một mục menu được chọn */
+.ant-menu-item-selected {
+  background-color: #23395b !important; /* Thay đổi thành màu mong muốn */
+  color: #ffffff !important; /* Đặt màu chữ trắng cho độ tương phản tốt */
+  border-radius: 4px; /* Bo góc nhẹ */
+}
+/* Đặt cho toàn bộ Layout hoặc body để loại bỏ cuộn */
+.app-layout, body, html {
+  overflow: hidden;
+  background-color: #23395b ; /* Thay đổi thành màu mong muốn */
+
+}
+/* Thay đổi màu của icon Electron nếu có */
+.icon-container {
+  background-color: #1b2b3a; /* Tông màu tối hài hòa với nền */
+  border-radius: 4px; /* Thêm bo góc để tạo sự mềm mại */
+  padding: 4px;
+}
+
+/* Nếu là màu của biểu tượng hoặc text */
+.app-icon, .app-title {
+  color: #ffffff; /* Đặt màu trắng hoặc xám nhạt cho chữ trên nền tối */
+}
+.app-header{
+  background-color: #001529;
+}
